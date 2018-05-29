@@ -1,2 +1,2 @@
-# MeaxisBot
-Le code du MeaxisBot sur discordapp.
+# super-super-heroku-bot
+Bot using heroku, 24/7!
