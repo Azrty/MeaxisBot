@@ -11,11 +11,5 @@ client.on('message', message => {
   	}
 });
 
-client.on('message', message => {
-    if (message.content === 'Oof') {
-        message.reply('Uuh');
-    }
-}};
-
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
