@@ -1,2 +1,2 @@
-# super-super-heroku-bot
-Bot using heroku, 24/7!
+# MeaxisBot
+Le premier Google Home Français de Discord !
