@@ -20,5 +20,12 @@ client.on('guildMemberAdd', member => {
   channel.send(`Bienvenue ${member} sur le serveur ! Tu peux dire "Ok Google, Aide." pour être aidé.`);
 });
 
+
+client.on('message', message => {
+    if (message.content === 'Ok Google, je ne possède pas des amis') {
+    	message.reply('lol');
+  	}
+});
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
