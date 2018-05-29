@@ -23,7 +23,14 @@ client.on('guildMemberAdd', member => {
 
 client.on('message', message => {
     if (message.content === 'Ok Google, rien.') {
-    	message.reply('lol');
+    	message.reply('Hahaha, je trouve ca très drole.');
+  	}
+});
+
+
+client.on('message', message => {
+    if (message.content === 'Ok Google, 55.') {
+    	message.reply('Désolé, mais je ne sais pas comment vous aider. Recherches Liées : Smot.');
   	}
 });
 
