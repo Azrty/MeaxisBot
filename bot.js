@@ -6,8 +6,8 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'Bloc de ice.') {
-    	message.reply('Bonjour !');
+    if (message.content === 'Ok Google, aide.') {
+    	message.reply('Je ne peux pas actuellement vous aider. Le bot est en BETA et ne possède pas de commandes.');
   	}
 });
 
