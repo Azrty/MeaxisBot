@@ -22,7 +22,7 @@ client.on('guildMemberAdd', member => {
 
 
 client.on('message', message => {
-    if (message.content === 'Ok Google, je n'ai pas d'amis amis') {
+    if (message.content === 'Ok Google, rien.') {
     	message.reply('lol');
   	}
 });
