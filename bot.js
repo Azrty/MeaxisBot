@@ -41,7 +41,14 @@ client.on('message', message => {
   	}
 });
 
-bot.user.setPresence({ status: 'online', game: { name: 'GAME HERE' } });
+
+client.on('message', message => {
+    if (message.content === 'Ok Google, quelle est la hauteur de la tour Eiffel ?') {
+    	message.reply("La tour Eiffel fait 300 mètres et a 3 étages..");
+  	}
+});
+
+bot.user.setPresence({ status: 'online', game: { name: 'Potatoes Simulator 98' } });
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
