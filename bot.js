@@ -40,5 +40,8 @@ client.on('message', message => {
     	message.reply("L'élu a été invoqué. Préparez les Smots.");
   	}
 });
+
+bot.user.setPresence({ status: 'online', game: { name: 'GAME HERE' } });
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
