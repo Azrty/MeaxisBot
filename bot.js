@@ -48,7 +48,7 @@ client.on('message', message => {
   	}
 });
 
-bot.user.setPresence({ status: 'online', game: { name: 'Potatoes Simulator 98' } });
+client.user.setPresence({ status: 'online', game: { name: 'Potatoes Simulator 98' } });
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
