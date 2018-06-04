@@ -48,7 +48,8 @@ client.on('message', message => {
   	}
 });
 
-client.user.setPresence({ status: 'online', game: { name: 'Potatoes Simulator 98' } });
+//This part is currently bugged, you need to fix it before adding it to the bot
+//client.user.setPresence({ status: 'online', game: { name: 'Potatoes Simulator 98' } });
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
